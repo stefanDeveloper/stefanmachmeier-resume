@@ -1,38 +1,36 @@
 ---
-title: "An example conference paper"
+title: "Honeypot Implementation in a Cloud Environment"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Robert Ford
+- "Stefan Machmeier"
 
 # Author notes (optional)
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- "Stefan Machmeier"
 
-date: "2013-07-01T00:00:00Z"
-doi: ""
+date: "2023-02-01T00:00:00Z"
+doi: "10.48550/ARXIV.2301.00710"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-02-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In arXiv at Cryptography and Security
+publication_short: In arXiv cs.CR
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In this age of digitalization, Internet services face more attacks than ever. An attacker's objective is to exploit systems and use them for malicious purposes. Such efforts are rising as vulnerable systems can be discovered and compromised through Internet-wide scanning. One known methodology besides traditional security leverages is to learn from those who attack it. A honeypot helps to collect information about an attacker by pretending to be a vulnerable target. Thus, how honeypots can contribute to a more secure infrastructure makes an interesting topic of research. This thesis will present a honeypot solution to investigate malicious activities in heiCLOUD and show that attacks have increased significantly. To detect attackers in restricted network zones at Heidelberg University, a new concept to discover leaks in the firewall will be created. Furthermore, to consider an attacker's point of view, a method for detecting honeypots at the transport level will be introduced. Lastly, a customized OpenSSH server that works as an intermediary instance will be presented to mitigate these efforts.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: 
 
 tags: []
 
@@ -56,7 +54,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Cowrie Password Attempts'
   focal_point: ""
   preview_only: false
 
@@ -65,23 +63,13 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- example
+# projects:
+# - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
