@@ -14,7 +14,7 @@ organizations:
   url: https://www.uni-heidelberg.de/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I studied applied computer science at the DHBW Stuttgart Campus Horb (2015-2018) and the University Heidelberg (2020-2022). During my masters, I focused on cybersecurity with a master's thesis on "Honeypot Implementation in a Cloud environment". Additionally, I worked as a research assistent at bwInfoSec, where I have been a permanent team member since April 2022.
 
 # Interests to show in About widget
 interests:
@@ -56,9 +56,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: ""
